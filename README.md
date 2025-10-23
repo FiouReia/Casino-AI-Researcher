@@ -14,7 +14,7 @@ This system automatically:
 ## 🏗️ Architecture
 
 ### Tech Stack
-- **Frontend**: React 18 + Vite + TypeScript
+- **Frontend**: React 19 + Vite
 - **Backend**: Node.js + Express
 - **Database**: MongoDB
 - **AI**: Claude 4.5 Sonnet API with web search
@@ -360,7 +360,7 @@ This project is provided as-is for research and development purposes.
 **Why**: Flexible schema accommodates varying casino/offer data structures
 **Trade-off**: NoSQL vs relational database complexity
 
-### Decision: Claude 4 Sonnet
+### Decision: Claude 4.5 Sonnet
 **Why**: Best balance of reasoning capability, cost, and speed for this task
 **Trade-off**: Slightly higher cost than cheaper models, but superior accuracy
 
@@ -378,7 +378,7 @@ This project is provided as-is for research and development purposes.
 
 ## ✅ Success Criteria Checklist
 
-- [] MongoDB connected and casinos/offers stored
+- [ ] MongoDB connected and casinos/offers stored
 - [ ] Claude API integrated and working
 - [ ] Initial 4 states casinos discovered successfully
 - [ ] Missing casinos identified and displayed
